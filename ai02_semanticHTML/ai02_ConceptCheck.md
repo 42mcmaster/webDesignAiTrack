@@ -4,7 +4,7 @@ Answer in your own words, under each question. Dictate into the file or have Cla
 
 ## 1. Why does a page get exactly one h1? What goes wrong for someone using a screen reader when a page has four?
 
-## 2. A sighted developer says: "Bold text and an h2 look the same, so it doesn't matter which I use." Explain, from your own experience with the headings list, why they're wrong.
+## 2. A developer says: "Bold text and an h2 look the same on screen, so it doesn't matter which I use." Explain, from your own experience with the headings list, why they're wrong.
 
 ## 3. When does content deserve an ordered list instead of an unordered list? Give one example of each from real life.
 

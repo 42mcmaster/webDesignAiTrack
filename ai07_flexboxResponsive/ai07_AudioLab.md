@@ -1,28 +1,56 @@
 # ai07 Audio Lab: Visual Order vs. Reading Order
 
-## Step 1 — The reversed nav.
+This week's build made your site responsive, and the brief's twist planted a booby trap on purpose: Claude applied a flexbox rule (`row-reverse`) that makes your nav links DISPLAY in reverse order — while the code underneath stays in the original order. This audit measures the damage, names the principle behind it, and then verifies your new page template.
 
-With `row-reverse` applied (the brief's twist): pull up the links list and tab through the nav. What order does the audit report? Now ask Claude what order the links appear in visually. Write both orders side by side.
+---
 
-**Findings:**
+## Step 1 — Measure the reversed nav
 
-## Step 2 — Name the principle.
+**What you're checking:** which order the page *reads* in versus which order it *displays* in — because right now, they disagree.
 
-You just demonstrated something WCAG has a rule about: CSS can rearrange what appears on screen without changing the source — so the audited order and the visual order disagree. Imagine instructions that say "click the last link in the menu" — which "last"? Write four sentences on why source order should stay logical and CSS reordering should be used sparingly. Then have Claude remove the row-reverse.
+**Do this:** pull up the links list and note the order of your nav links. Then Tab through the nav and note the order again. Then ask Claude: "Describe the visual order of my nav links right now, left to right."
 
-**Findings:**
+**You should find:** the links list and Tab both give the ORIGINAL order (Home first) — because they follow the code. Claude's description gives the REVERSED order (Home last) — because the CSS only changed the display. Write both orders side by side.
 
-## Step 3 — The wrap check.
+**Write what you found:**
 
-The card row wraps on narrow screens — a purely visual event. Confirm by audit that wrapping changes nothing: same reading order, same content, narrow or wide. (Ask Claude to describe the two visual states so your prompt log captures both sides.)
+---
 
-**Findings:**
+## Step 2 — Name the principle
 
-## Step 4 — Template audit.
+**What you're checking:** why this matters beyond a party trick. Two visitors are now experiencing two different navigations: a keyboard or screen reader user gets Home-first; someone reading the screen gets Home-last. Now imagine instructions anywhere that say "choose the last link in the menu" — the two visitors pick different links. Real sites cause real confusion exactly this way.
 
-Open `template.html` and audit it: a nearly empty page, but the SKELETON should already pass every structural check in this track — regions present on the region walk, one h1 placeholder in the headings list, skip link as the first tab stop. If the template passes, every future page starts life correct. That's the point of templates.
+**Do this:** write four sentences in your own words: why the order in the CODE should stay logical, why CSS reordering should be used sparingly, and who gets hurt when display order and code order disagree. (For the record: accessibility guidelines have a rule about this — reading order must be meaningful. You just demonstrated why it exists.)
 
-**Findings:**
+**Cleanup:** say: "Remove the row-reverse rule from my nav and save." Re-check with the links list.
+
+**Write your four sentences:**
+
+---
+
+## Step 3 — The wrap check
+
+**What you're checking:** your card row now wraps into fewer columns on narrow windows — a purely visual reflow. Visual reflow must not change reading order.
+
+**Do this:** read continuously through the card section. Then say: "Describe how my card row looks in a wide window versus a narrow one." Record the description in your prompt log. Then ask: does anything about the reading order depend on the window width? (It shouldn't — the audit reads code order either way. Confirm by re-reading the section after asking Claude to describe the narrow layout.)
+
+**You should hear:** identical reading order regardless of window size. The wrap is real — cards visually stack on narrow screens — but the meaning never moves.
+
+**Write what you heard:**
+
+---
+
+## Step 4 — The template audit
+
+**What you're checking:** this week you saved `template.html` — the skeleton every future page starts from. If the skeleton passes the audit while nearly empty, every page built from it starts life correct.
+
+**Do this:** open template.html and run the full basic battery: the page announcement (a placeholder title should announce), the headings list (one placeholder heading level 1), the region walk (banner, navigation, main, content information — all four), and one Tab press (the skip link should be first).
+
+**You should hear:** a tiny page that passes everything. If any check fails, fix it NOW with a precise request to Claude — a flaw in the template gets copied into every future page, so this is the highest-leverage fix of the semester.
+
+**Write what you heard:**
+
+---
 
 ## Verdict
 

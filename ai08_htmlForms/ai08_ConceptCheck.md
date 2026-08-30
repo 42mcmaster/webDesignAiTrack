@@ -2,7 +2,7 @@
 
 Answer in your own words. (Competencies: 6.4.1–6.4.6)
 
-## 1. What is the mechanism that connects a label to its input? What does that connection give a screen reader user — and what does clicking the label give a sighted mouse user for free?
+## 1. What is the mechanism that connects a label to its input? What does that connection give a screen reader user — and what does clicking the label do for a mouse user, for free?
 
 ## 2. Radio buttons vs. checkboxes: what's the behavioral difference, and when is each correct?
 

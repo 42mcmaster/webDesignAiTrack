@@ -24,13 +24,13 @@ Listen to the read-back. Does it match what you asked? If yes:
 
 ## Step 3 — First audit (10 minutes)
 
-Open hello.html in the browser and run three moves with the screen reader:
+Open hello.html in your browser. (Not sure how? Ask Claude: "Give me the steps to open hello.html from my ai00 folder in the browser, one at a time.") Then run three checks:
 
-1. **The page announcement.** The first thing announced when the page opens should be its title — "Hello from [your name]." Is it?
-2. **The headings list.** Pull it up. Exactly one heading, level one, matching what you directed?
-3. **Read from the top.** The whole page, start to finish. Title's story, heading, paragraph — and notice what does NOT get announced: the comment. Comments are for developers, not visitors. You just verified that firsthand.
+1. **The page announcement.** When a web page opens, the screen reader speaks the page's title before anything else — no command needed, it just happens. Listen as the page opens. You should hear "Hello from [your name]," because that's the title you directed. If you hear a filename instead, the title didn't make it into the code — say to Claude: "The page announces its filename instead of the title. Fix the title element and save," then reload and listen again.
+2. **The headings list.** Every screen reader has a command that gathers all of a page's headings into one list (you'll drill this in the moves trainer). Run it. You should hear exactly one heading, announced as level 1, with your wording. More than one heading, or the wrong level, means the build doesn't match your direction — describe the difference to Claude and have it fixed.
+3. **Read from the top.** Go to the top of the page and start continuous reading. You should hear the heading, then your paragraph — and you should NOT hear the comment you asked for ("My first directed build"). Comments live in the code for developers; visitors never encounter them. Hearing everything except the comment means the page is exactly right.
 
-If anything failed, tell Claude the symptom and have it fix the file. Re-save, re-audit.
+If anything failed, tell Claude the symptom in plain words, have it fix the file and save, then re-run just the check that failed. That fix-and-recheck cycle is the normal rhythm of this whole course — you'll do it hundreds of times, and it stops feeling like failure by about the third one.
 
 ## Step 4 — First commit (10 minutes)
 
