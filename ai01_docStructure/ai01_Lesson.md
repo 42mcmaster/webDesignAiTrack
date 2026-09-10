@@ -8,7 +8,11 @@ Pick three sections. Examples: About Me, My Music, My Goals. For each section, t
 
 ## Step 2. Build
 
-Tell Claude this. Fill in your own content.
+First tell Claude:
+
+"Make a folder called ai01_docStructure in my repository folder."
+
+Then tell Claude this. Fill in your own content.
 
 "Make a complete HTML page called aboutme.html. Put it in my ai01_docStructure folder. The title is About [your name]. Put a comment at the top that says built by direction and today's date. The page has one heading level one with my name. Then three sections. Each section has a heading level two and a paragraph. Here is the content." Then tell Claude your section names and sentences.
 
@@ -49,4 +53,4 @@ Commit with the summary About Me page. Push.
 ## Turn in
 
 1. aboutme.html
-2. ai01_Questions.md with your answers
+2. Your answers to the questions in ai01_Questions.md, shared in Google Classroom

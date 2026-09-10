@@ -6,7 +6,7 @@ You turn your home page into a three-page site. Every page has the same nav. The
 
 Tell Claude:
 
-"Copy index.html from my ai02_semanticHTML folder into my ai03_linksAndNav folder."
+"Make a folder called ai03_linksAndNav in my repository folder. Copy index.html from my ai02_semanticHTML folder into it."
 
 All work in this lesson happens in ai03_linksAndNav.
 
@@ -55,4 +55,4 @@ Commit with the summary Three page site. Push.
 ## Turn in
 
 1. index.html, about.html, music.html, bio.txt
-2. ai03_Questions.md with your answers
+2. Your answers to the questions in ai03_Questions.md, shared in Google Classroom

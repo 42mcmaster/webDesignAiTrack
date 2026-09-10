@@ -10,7 +10,11 @@ From here on you build one site about your music. This lesson is the home page. 
 
 ## Step 2. Build
 
-Tell Claude this. Fill in your content.
+First tell Claude:
+
+"Make a folder called ai02_semanticHTML in my repository folder."
+
+Then tell Claude this. Fill in your content.
 
 "Make a page called index.html in my ai02_semanticHTML folder. The title is [site name]. Use a header element with a heading level one that says the site name. Use a nav element with four links: Home, About, Music, Contact. The links can point to the page names index.html, about.html, music.html, and contact.html. Use a main element. Inside main, two section elements. Each section has a heading level two and a paragraph. Section one has an ordered list. Section two has an unordered list. Use a footer element with my artist name and the year. Somewhere in the text, use one strong element for something important and one em element for something I want stressed. Here is the content." Then give Claude your text.
 
@@ -44,4 +48,4 @@ Commit with the summary Music site home page. Push.
 ## Turn in
 
 1. index.html
-2. ai02_Questions.md with your answers
+2. Your answers to the questions in ai02_Questions.md, shared in Google Classroom

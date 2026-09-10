@@ -7,15 +7,19 @@ In this lesson you build one small page, open it, and push it. This is the same 
 Check these four things.
 
 1. The Claude desktop app is open and signed in.
-2. Claude can see your webDesignAiTrack folder.
-3. GitHub Desktop is open and shows the webDesignAiTrack repository.
+2. Claude can see your repository folder. This is the folder GitHub Desktop made when you cloned your repository.
+3. GitHub Desktop is open and shows your repository.
 4. Your screen reader is running.
 
 If any of these is not true, ask Mr. McMaster before going on.
 
 ## Step 1. Build
 
-Tell Claude this. Use your own name.
+Every lesson gets its own folder in your repository, with the same name as the lesson. Tell Claude:
+
+"Make a folder called ai00_gettingStarted in my repository folder."
+
+Then tell Claude this. Use your own name.
 
 "Make a complete HTML page. The title is Hello from [your name]. The page has one heading level one that says the same thing, and one paragraph that says what this class is. Save it as hello.html in my ai00_gettingStarted folder."
 
@@ -27,7 +31,7 @@ You should hear hello.html in the list.
 
 ## Step 2. Check
 
-1. Open File Explorer and go to your webDesignAiTrack folder, then ai00_gettingStarted.
+1. Open File Explorer and go to your repository folder, then ai00_gettingStarted.
 2. Arrow to hello.html and press Enter. It opens in Chrome.
 3. Listen when the page opens. The screen reader says the page title first. You should hear Hello from your name.
 4. Press H. You should land on the heading. It should say level one.
@@ -56,4 +60,4 @@ Pushed means turned in.
 ## Turn in
 
 1. hello.html
-2. ai00_Questions.md with your answers
+2. Your answers to the questions in ai00_Questions.md, shared in Google Classroom

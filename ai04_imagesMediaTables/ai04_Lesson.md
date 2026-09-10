@@ -6,7 +6,7 @@ You add a media page to your site. It has images with alt text, an audio player 
 
 Tell Claude:
 
-"Copy index.html, about.html, music.html, and bio.txt from my ai03_linksAndNav folder into my ai04_imagesMediaTables folder. Add a fourth nav link on every page: Media, pointing to media.html."
+"Make a folder called ai04_imagesMediaTables in my repository folder. Copy index.html, about.html, music.html, and bio.txt from my ai03_linksAndNav folder into it. Add a fourth nav link on every page: Media, pointing to media.html."
 
 ## Step 2. Get your files
 
@@ -58,4 +58,4 @@ Commit with the summary Media page. Push. Make sure the images and media folders
 ## Turn in
 
 1. media.html and the updated pages, with the images and media folders
-2. ai04_Questions.md with your answers
+2. Your answers to the questions in ai04_Questions.md, shared in Google Classroom

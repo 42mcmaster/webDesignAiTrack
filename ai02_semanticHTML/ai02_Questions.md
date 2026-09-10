@@ -1,6 +1,6 @@
 # ai02 Questions
 
-Type your answer under each question. Use your own words. One or two sentences is enough. Then commit and push this file.
+Copy these questions into a Google Doc or a Word document. Type your answer under each question. Use your own words. One or two sentences is enough. Share the document with Mr. McMaster in Google Classroom.
 
 ## 1. Name the five regions you used on your page. Say what goes in each one.
 

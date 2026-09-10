@@ -2,19 +2,21 @@
 
 You build web pages by telling Claude what to make. Then you check the page with your screen reader and push it to GitHub.
 
+Read the lessons here on GitHub. Build in your own repository on your computer.
+
 Each lesson has two files.
 
 1. Lesson. What to build, step by step, and how to check it.
-2. Questions. Short questions to answer in your own words. Type your answers under each question and push the file.
+2. Questions. Short questions to answer in your own words. Copy them into a Google Doc or Word document, type your answers, and share the document with Mr. McMaster in Google Classroom.
 
-Lessons are numbered to match the main class. ai01 goes with html01, and so on.
+Lessons are numbered to match the main class. ai01 goes with html01, and so on. Each lesson gets a folder in your repository with the same name as the lesson folder here.
 
 ## Tools
 
 1. Claude desktop app. This is where you build. Tell Claude what you want and where to save it.
 2. Chrome with your screen reader. This is where you check the page.
-3. GitHub Desktop. This is how you turn work in.
-4. VS Code. Use it to open and read any file.
+3. GitHub Desktop. This is how you turn in your pages.
+4. Google Docs or Word. This is where you answer the questions.
 
 ## The loop
 
@@ -27,7 +29,7 @@ Every lesson is the same four moves.
 
 ## Start
 
-Open ai00_gettingStarted and read ai00_Lesson.md.
+Open the ai00_gettingStarted folder and read ai00_Lesson.md.
 
 ## Old files
 
