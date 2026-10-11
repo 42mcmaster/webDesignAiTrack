@@ -1,4 +1,4 @@
-# ai05 Build Brief: Style Without Sight
+# ai05 Build Brief: One Stylesheet for Your Site
 
 **Pairs with html05 (CSS Fundamentals).**
 
